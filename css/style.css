@@ -321,3 +321,129 @@ p.header-text {
     font-size: 16px;
 }
 
+.help {
+    display: flex;
+}
+.help-text {
+    margin-left: 106px;
+    padding-top: 103px;
+}
+
+.help-text span {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 0.65;
+    color: #22356F;
+    margin-bottom: 225px;
+}
+.help-text p {
+    color: #22356F;
+    font-size: 36px;
+    line-height: 1.25;
+    max-width: 676px;
+    font-weight: bold;
+    margin-bottom: 152px;
+}
+.help-text p span {
+    color: #62D0DF;
+    font-size: 36px;
+    line-height: 1.25;
+    max-width: 676px;
+    font-weight: bold;
+    margin-bottom: 0;
+    
+}
+
+.help-text a {
+    color: #FAB63E;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    background-color: #22356F;
+}
+
+.contact-text {
+    margin-left: 180px;
+    padding-top: 103px;
+}
+.contact-text span {
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-bottom: 200px;
+}
+.contact-text h2 {
+    font-size: 64px;
+    line-height: 94px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    margin-bottom: 75px;
+}
+.contact-text p {
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    max-width: 579px;
+    margin-bottom: 74px;
+}
+
+.contact-text a {
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #62D0DF;
+}
+
+.footer {
+    display: flex;
+}
+.footer-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 98px;
+    padding-left: 68px;
+}
+.footer-item {
+    max-width: 240px;
+    min-width: 240px;
+    /* margin-right: 50px; */
+}
+.footer-item h3 {
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    color: #22356F;
+    margin-bottom: 42px;
+}
+.footer-item p {
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.006em;
+    color: rgba(34, 53, 111, 0.5);
+}
+.footer-text span {
+    color: #62D0DF
+}
+.footer-first {
+    margin-bottom: 40px;
+}
+
+.copyright {
+    padding: 32px 0 26px 194px;
+    background-color: #62D0DF;
+}
+.copyright p {
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+}
