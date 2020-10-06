@@ -37,7 +37,7 @@ ul {
     background-color: #F4F9E2;
     padding-left: 179px;
     padding-right: 131px;
-    background: url('/img/header-people.png'), url('/img/header-1.png');
+    background: url('../img/header-people.png'), url('../img/header-1.png');
     background-repeat: no-repeat, no-repeat;
     background-position: right top, right top;
     
@@ -287,7 +287,7 @@ p.header-text {
     background: #0052C1;
 }
 .sport-third {
-    background: url('/img/joanna-kosinska-340748.png');
+    background: url('../img/joanna-kosinska-340748.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
