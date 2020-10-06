@@ -1,0 +1,323 @@
+html {
+  box-sizing: border-box
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box
+}
+\:focus, \:active {
+  outline: 0
+}
+body {
+    font-family: 'Larsseit';
+  font-weight: 400;
+  /* max-width: 1440px; */
+  font-size: 16px;
+  position: relative;
+}
+img {
+  max-width: 100%;
+  display: block
+}
+h1, h2, h3, h4, h5, h6, ul, p {
+	padding: 0;
+	margin: 0;
+}
+a {
+  text-decoration: none
+}
+ul {
+  list-style: none;
+  padding: 0
+}
+
+.header {
+    min-height: 840px;
+    background-color: #F4F9E2;
+    padding-left: 179px;
+    padding-right: 131px;
+    background: url('/img/header-people.png'), url('/img/header-1.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: right top, right top;
+    
+}
+.header-top {
+    padding-top: 27px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 187px;
+}
+p.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #62D0DF;
+    line-height: 0.95;
+}
+ul.main-nav {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: flex-start;
+}
+ul.main-nav li {
+    
+    text-align: center;
+    margin: 0 10px;
+    padding-bottom: 15px;
+}
+ul.main-nav li:hover, ul.main-nav li.active-item {
+    border-bottom: 3px solid grey;
+}
+ul.main-nav li a {
+    font-size: 14px;
+    color: #22356F;
+    padding: 0 10px;
+}
+
+.header-btn {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background-color: #62D0DF;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 2.9;
+}
+.header-btn a.btn {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header-middle p.logo {
+    margin-bottom: 40px;
+}
+.header-middle h1 {
+    font-size: 48px;
+    color: #22356F;
+    line-height: 0.95;
+    margin-bottom: 50px;
+}
+p.header-text {
+    max-width: 469px;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 63px;
+}
+.header-middle-btn a {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 3.1;
+    font-size: 16px;
+    font-weight: bold;
+    color: #F9B640;
+    text-transform: uppercase;
+}
+.header-middle-btn a.left-a {
+    background-color: #F9B640;
+    margin-right: 38px;
+    color: #fff;
+}
+
+.thrive {
+    display: flex;
+    justify-content: space-between;
+    height: 604px;
+    padding-left: 179px;
+    background-color: #62D0DF;
+}
+.thrive-text {
+    padding-top: 151px;
+}
+.thrive-text h2 {
+    font-size: 36px;
+    line-height: 0.65;
+    color: #fff;
+    margin-bottom: 75px;
+}
+.thrive-text p {
+    max-width: 555px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.5;
+
+}
+.thrive-text p b {
+    font-size: 24px;
+}
+
+
+.about-top {
+    padding-top: 150px;
+    display: flex;
+    padding-left: 106px;
+    padding-bottom: 70px;
+}
+.about-top h2 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-right: 225px;
+    width: 93px;
+    text-transform: uppercase;
+}
+.about-top p.about-text {
+    font-size: 24px;
+    line-height: 1.2;
+    color: #22356F;
+    max-width: 592px;
+}
+.about-middle {
+    padding-bottom: 120px;
+}
+.about-middle h3 {
+    font-size: 16px;
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    color: #22356F;
+    margin-bottom: 24px;
+}
+
+.about-list {
+    display: flex;
+}
+.about-item {
+    /* min-width: 360px; */
+    min-width: 25%;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-item span {
+    display: inline-block;
+    min-width: 255px;
+    height: 72px;
+    border-bottom: 2px solid white;
+    margin-bottom: 23px;
+}
+
+.about-item p {
+    display: inline-block;
+    width: 255px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    padding-left: 20px;
+}
+.about-item p::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #F9B640;
+    left: 0;
+    top: 10px;
+}
+
+.about-item-first {
+    background-color: #FFE2DE;
+}
+.about-item-second {
+    background-color: #C4E769;
+}
+.about-item-third {
+    background-color: #62D0DF;
+}
+.about-item-fourth {
+    background-color: #22356F;
+}
+
+.sport-row {
+    display: flex;
+}
+.sport-item {
+    height: 480px;
+    min-width: 33.333%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sport-item span {
+    display: inline-block;
+    min-width: 340px;
+    height: 96px;
+    border-bottom: 2px solid white;
+    margin-bottom: 30px;
+}
+.sport-item p {
+    display: inline-block;
+    width: 340px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    padding-left: 25px;
+}
+
+.sport-item p::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #F9B640;
+    left: 0;
+    top: 10px;
+}
+
+
+.sport-first {
+    background: #22356F
+}
+.sport-second {
+    background: #0052C1;
+}
+.sport-third {
+    background: url('/img/joanna-kosinska-340748.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sport-fourth {
+    background: #62D0DF;
+}
+.sport-fifth {
+    background: #DEE1FF;
+}
+.sport-six {
+    background: #8F00FF;
+}
+
+
+.type-row {
+    display: flex;
+}
+.type-item {
+    height: 240px;
+    min-width: 33.333%;
+    padding-top: 55px;
+    padding-left: 105px;
+}
+.type-item h3 {
+    font-weight: normal;
+    font-size: 28px;
+    margin-bottom: 28px;
+}
+.type-item p {
+    max-width: 298px;
+    font-size: 16px;
+}
+
