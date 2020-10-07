@@ -53,6 +53,7 @@ p.logo {
     font-weight: bold;
     color: #62D0DF;
     line-height: 0.95;
+    z-index: 3
 }
 ul.main-nav {
     display: flex;
@@ -92,6 +93,10 @@ ul.main-nav li a {
     font-weight: bold;
 }
 
+.burger-menu {
+    display: none;
+}
+
 .header-middle p.logo {
     margin-bottom: 40px;
 }
@@ -127,12 +132,13 @@ p.header-text {
 .thrive {
     display: flex;
     justify-content: space-between;
-    height: 604px;
+    min-height: 604px;
     padding-left: 179px;
     background-color: #62D0DF;
 }
 .thrive-text {
     padding-top: 151px;
+    height: 100%;
 }
 .thrive-text h2 {
     font-size: 36px;
@@ -155,8 +161,8 @@ p.header-text {
 .about-top {
     padding-top: 150px;
     display: flex;
-    padding-left: 106px;
-    padding-bottom: 70px;
+    /* padding-left: 106px; */
+    margin-bottom: 70px;
 }
 .about-top h2 {
     font-size: 16px;
@@ -187,6 +193,7 @@ p.header-text {
 
 .about-list {
     display: flex;
+    /* flex-wrap: wrap; */
 }
 .about-item {
     /* min-width: 360px; */
@@ -241,6 +248,7 @@ p.header-text {
 
 .sport-row {
     display: flex;
+    flex-wrap: wrap;
 }
 .sport-item {
     height: 480px;
@@ -259,7 +267,7 @@ p.header-text {
 }
 .sport-item p {
     display: inline-block;
-    width: 340px;
+    min-width: 340px;
     color: #fff;
     font-size: 32px;
     font-weight: bold;
@@ -304,6 +312,7 @@ p.header-text {
 
 .type-row {
     display: flex;
+    flex-wrap: wrap;
 }
 .type-item {
     height: 240px;
